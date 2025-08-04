@@ -1,0 +1,44 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+# idea config
+.idea
+
+# md files except README
+*.md
+!README.md
+
+# excluded lessons
+FeedbackSurvey/
+
+# included lessons
+introduction/*/
+introduction/task/*/
+aliasServer/*/
+aliasServer/task/*/
+wordsGeneratorServer/*/
+wordsGeneratorServer/task/*/
+codenamesServer/*/
+codenamesServer/task/*/
+memoryTrainerServer/*/
+memoryTrainerServer/task/*/
+
+!/introduction/task/
+!/introduction/task/src/
+!/aliasServer/task/
+!/aliasServer/task/src/
+!/wordsGeneratorServer/task/
+!/wordsGeneratorServer/task/src/
+!/codenamesServer/task/
+!/codenamesServer/task/src/
+!/memoryTrainerServer/task/
+!/memoryTrainerServer/task/src/
+
+
+# Project exclude paths
+/utils/out/
+/utils/out/production/classes/
